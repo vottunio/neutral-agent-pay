@@ -1,0 +1,14 @@
+{
+  "name": "neutral-agent-pay",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Enterprise x402 payment rail and fiat settlement on Stellar",
+  "license": "MIT",
+  "workspaces": ["packages/*", "examples/*"],
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present"
+  }
+}

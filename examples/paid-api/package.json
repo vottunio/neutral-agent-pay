@@ -1,0 +1,11 @@
+{
+  "name": "@neutralagentpay/example-paid-api",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "server": "node --experimental-strip-types src/server.ts",
+    "client": "node --experimental-strip-types src/client.ts"
+  }
+}
